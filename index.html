@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enfrade @me</title>
+  <link rel="icon" href="/assets/img/logo-letter.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+
+<body>
+  <header>
+    <div class="navbar">
+      <a class="logo" href="#">Enfrade</a>
+        <ul class="links">
+          <li><a href="https://discord.com/users/1084463902886199397">Contact Me</a></li>
+          <li><a href="https://discord.gg/gzVyePPgqF">Free Services</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      <a class="navbar-btn" href="https://discord.gg/gzVyePPgqF">Join Server</a>
+      <div class="toggle-btn">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="dropdown-menu">
+      <li><a href="https://discord.com/users/1084463902886199397">Contact Me</a></li>
+      <li><a href="https://discord.gg/gzVyePPgqF">Free Services</a></li>
+      <li><a href="#about">About Me</a></li>
+      <br>
+      <a class="navbar-btn" href="https://discord.gg/gzVyePPgqF">Join Server</a>
+    </div>
+  </header>
+</body>
+
+<main>
+  <!------------ Home Section Start ------------>
+  <section>
+  <div class="container">
+    <h1 class="words-wrapper">
+      
+      <span class="words">
+        <span style="color: #fff;" class="current" data-bg-color="#" data-color="#000">HTML</span>
+        <span style="color: #fff;" class="next" data-bg-color="#" data-color="#fff">CSS</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#000">JavaScript</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#fff">Python</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#000">Lua</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#fff">PHP</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#000">C++</span>
+        <span style="color: #fff;" data-bg-color="#" data-color="#fff">C#</span>
+      </span>
+      <p style="margin-bottom: 4px; display: inline-block;">Developer</p>
+    </h1><br>
+    <p style="opacity: 0.8; margin-right: 10px; margin-left: 11px;">Hey, I'm Enfrade and I am an experienced full stack developer living in Australia. I enjoy graphic designing <br> and offering free services in my Discord server. Join down below!</p>
+    <br><br>
+    <a href="https://discord.gg/gzVyePPgqF"><button class="home-btn">Join my Discord server</button></a>
+    <br>
+    <div class="social-links">
+      <a href="https://discord.gg/gzVyePPgqF"><i class="fa-brands fa-github"></i></a>
+      <a href="https://github.com/enfrade"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </div>
+</section>
+<!------------ Home Section End ------------>
+<br><br><br><br><br><br><br><br><br><br><br>
+<!------------ About Me Section Start ------------>
+<section id="about">
+<div class="responsive-container-block bigContainer">
+  <div class="responsive-container-block Container bottomContainer">
+    <div class="ultimateImg">
+      <img class="mainImg" src="assets/img/illustration.svg">
+    </div>
+    <div class="allText bottomText">
+      <p class="text-blk subHeadingText">
+        Read More About Me
+      </p>
+      <p class="text-blk description">
+        Hello! I'm Enfrade, a dedicated web developer with a love for creating crisp, appealing websites using HTML, CSS, JavaScript, PHP, and more. I find joy in transforming complex codes into user-friendly experiences.
+        <br><br>
+        I also have a knack for graphic design and enjoy offering my services at no cost, a way for me to give back to the community and share my passion.
+        <br><br>
+        Furthermore, I'm a skilled 3D artist. This allows me to create lifelike digital models and scenes, a satisfying challenge that brings ideas to life in a visually stunning manner.
+        <br><br>
+        In short, I'm a creative enthusiast, excited about coding, designing, and 3D modeling. I'm always ready to take on projects that push my skills and creativity to new levels.
+                
+      </p>
+      <a href="https://discord.com/users/1084463902886199397"><button class="home-btn">Hit Me Up 👁️</button></a>
+    </div>
+  </div>
+</div>
+</section>
+<!------------ About Me Section End ------------>
+</main>
+
+<script>
+const toggleBtn = document.querySelector('.toggle-btn')
+const toggleBtnIcon = document.querySelector('.toggle-btn i')
+const dropDownMenu = document.querySelector('.dropdown-menu')
+
+toggleBtn.onclick = function() {
+    dropDownMenu.classList.toggle('open')
+}
+</script>
+<script src="assets/js/script.js"></script>
+</html>
